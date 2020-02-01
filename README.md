@@ -1,68 +1,27 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Tutorfy
 
-## Available Scripts
+Check it out at https://tutorfy-dh6.web.app/
 
-In the project directory, you can run:
+## Inspiration
+On a day to day basis, university students face various challenges such as struggling difficult subjects and are on a tight budget due to student debt. We wanted to solve both problems in one app. Tutorfy makes it simple for students to find local tutors in a plethora of subjects that can help them secure that A+, and helps tutors to earn some extra cash.
 
-### `yarn start`
+## What it does
+Allows students to search for tutors in different universities and courses, shows them their prices, reviews, and courses they tutor.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How we built it
+We built Tutorfy using: React, Flask, Python, MongoDB & Git
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Challenges we ran into
+We had some challenges with React's uni-directional data flow, especially when implementing states.
 
-### `yarn test`
+## Accomplishments that we're proud of
+Considering it was our first hackathon for all of us, we're definitely proud to have a functioning web app with several components (adding new posts, messaging via email service etc.)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## What we learned
+Most of us were new to React, Flask, and creating a web application from scratch. Teamwork started off difficult; Splitting off tasks initially between four developers was unexpected and challenging. We've learnt that communication help solve problems quick and resolve issues with merge conflicts fast.
 
-### `yarn build`
+## What's next for Tutorfy
+We're excited to further develop Tutorfy and improve on it's functionality. Some implementations we have in mind is to have the ability to create and store personal accounts for both tutors and students. In addition, we plan to add geo-location features, improved rating/feedback system, and an in-app instant messaging service.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Built With
+React, Flask, Python, MongoDB & Git
